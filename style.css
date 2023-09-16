@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --hue: 410;
+  --primary-color: hsl(50, 100%, 26%);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+  --beige: hsl(39, 100%, 97%);
+  --light: hsl(19, 23%, 89%);
+  --light2: hsl(80, 14%, 97%);
+  --dark: hsl(40, 100%, 14%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: overlay;
+  text-align: center;
+  background: var(--light);
+}
+
+section {
+  padding-block: 5rem;
+}
+
+#home img {
+  width: 26.4rem;
+  display: block;
+  margin-inline: auto;
+  object-position: 0 2rem;
+}
+
+/* ----------------navigation ------------------- */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-items a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.nav-items:hover {
+  background-color: var(--dark);
+}
+
+.nav-items:hover a {
+  color: var(--light-2);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 15px;
+
+  text-decoration: none;
+
+}
+
+.logo img {
+  width: 50px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+/* ------------------------MENU ---------------------- */
+
+#home {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+
+
+  display: flex;
+  justify-content: space-around;
+
+  background-color: var(--light);
+
+}
+
+#home img {
+
+}
+
+#home h1 {
+  text-align: left;
+  line-height: 50px;
+}
+
+#home p {
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 30px auto;
+}
