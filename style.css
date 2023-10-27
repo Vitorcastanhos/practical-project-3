@@ -32,7 +32,7 @@ body {
 }
 
 section {
-	padding-block: 5rem;
+	padding-block: 10rem;
 }
 
 #home img {
@@ -88,7 +88,9 @@ section {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+
 	width: min(50rem, 100%);
+
 	margin-inline: auto;
 	padding-inline: 2.4rem;
 }
@@ -105,9 +107,6 @@ section {
 	background-color: var(--light);
 }
 
-#home img {
-}
-
 #home h1 {
 	text-align: left;
 	line-height: 50px;
@@ -121,18 +120,31 @@ section {
 
 /* ===================== Contact============================================*/
 
-#contact .content ul {
-	list-style: none;
+#contact .wrapper{
+	display: flex;
+	flex-direction: column;
 	text-align: left;
 }
 
-#contact .wrapper {
-	display: initial;
+#contact ul {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	gap: 1rem;
+
+	font-size: 20px;
+	font-weight: 500;
 }
 
-#contact h2 {
-	margin-bottom: 15px;
+#contact ul li {
+	display: flex;
+	align-items: center;
+	gap: .8rem;
+
+	list-style: none;
+}
+
+#contact header {
+	font-size: 25px;
+	margin-bottom: 2rem;
 }
