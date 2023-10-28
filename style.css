@@ -39,7 +39,7 @@ section {
 	display: flex;
 	justify-content: space-between;
 
-	width: min(50rem, 100%);
+	width: min(60rem, 100%);
 
 	margin-inline: auto;
 	/* padding-inline: 2.4rem; */
@@ -47,11 +47,39 @@ section {
 
 /* ---------------- HOME ------------------- */
 
+#home {
+	display: flex;
+	justify-content: space-around;
+
+	background-color: var(--light);
+}
+
+#home header {
+	text-align: left;
+	line-height: 50px;
+	font-size: 1.3rem;
+}
+
+#home p {
+	text-align: left;
+	font-size: 1.1rem;
+	margin: 30px auto 0;
+
+	line-height: 30px;
+}
+
 #home img {
 	width: 26.4rem;
 	display: block;
 	margin-inline: auto;
 	object-position: 0 2rem;
+}
+
+#home .part-a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
 }
 
 /* ---------------- NAVIGATION BAR ------------------- */
@@ -80,7 +108,7 @@ section {
 
 	color: var(--headline);
 
-	transition: .3s;
+	transition: 0.3s;
 }
 
 .nav-items:hover {
@@ -107,29 +135,6 @@ section {
 
 #line {
 	border: 1px solid var(--paragraph);
-}
-
-/* ------------------------MENU ---------------------- */
-
-#home {
-	width: min(50rem, 100%);
-	margin-inline: auto;
-
-	display: flex;
-	justify-content: space-around;
-
-	background-color: var(--light);
-}
-
-#home h1 {
-	text-align: left;
-	line-height: 50px;
-}
-
-#home p {
-	text-align: left;
-	font-size: 1.2rem;
-	margin: 30px auto;
 }
 
 /* ===================== Contact============================================*/
