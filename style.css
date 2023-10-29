@@ -45,43 +45,6 @@ section {
 	/* padding-inline: 2.4rem; */
 }
 
-/* ---------------- HOME ------------------- */
-
-#home {
-	display: flex;
-	justify-content: space-around;
-
-	background-color: var(--light);
-}
-
-#home header {
-	text-align: left;
-	line-height: 50px;
-	font-size: 1.3rem;
-}
-
-#home p {
-	text-align: left;
-	font-size: 1.1rem;
-	margin: 30px auto 0;
-
-	line-height: 30px;
-}
-
-#home img {
-	width: 26.4rem;
-	display: block;
-	margin-inline: auto;
-	object-position: 0 2rem;
-}
-
-#home .part-a {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: left;
-}
-
 /* ---------------- NAVIGATION BAR ------------------- */
 
 #navbar {
@@ -137,6 +100,43 @@ section {
 	border: 1px solid var(--paragraph);
 }
 
+/* ---------------- HOME ------------------- */
+
+#home {
+	display: flex;
+	justify-content: space-around;
+
+	background-color: var(--light);
+}
+
+#home header {
+	text-align: left;
+	line-height: 50px;
+	font-size: 1.3rem;
+}
+
+#home p {
+	text-align: left;
+	font-size: 1.1rem;
+	margin: 30px auto 0;
+
+	line-height: 30px;
+}
+
+#home img {
+	width: 26.4rem;
+	display: block;
+	margin-inline: auto;
+	object-position: 0 2rem;
+}
+
+#home .part-a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
 /* ===================== Contact============================================*/
 
 #contact .wrapper {
@@ -169,3 +169,4 @@ section {
 }
 
 /* ===================== FOOOTER ============================================*/
+
