@@ -6,13 +6,10 @@
 
 :root {
 	--hue: 410;
-	--primary-color: hsl(50, 100%, 26%);
-	--headline: hsl(243, 100%, 69%);
-	--paragraph: hsl(210, 9%, 31%);
-	--beige: hsl(39, 100%, 97%);
-	--light: hsl(19, 23%, 89%);
-	--light2: hsl(80, 14%, 97%);
-	--dark: hsl(243, 85%, 60%);
+	--nav: hsl(243, 100%, 69%);
+	--nav-hover: hsl(243, 85%, 60%);
+	--line: hsl(210, 9%, 31%);
+	--body: hsl(0, 0%, 100%);
 }
 
 html {
@@ -28,7 +25,6 @@ body {
 body {
 	overflow: overlay;
 	text-align: center;
-	background: var(--light);
 }
 
 section {
@@ -42,7 +38,6 @@ section {
 	width: min(60rem, 100%);
 
 	margin-inline: auto;
-	/* padding-inline: 2.4rem; */
 }
 
 /* ---------------- NAVIGATION BAR ------------------- */
@@ -50,7 +45,6 @@ section {
 #navbar {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--light);
 }
 
 .nav-links {
@@ -69,17 +63,13 @@ section {
 
 	font-size: 1.2rem;
 
-	color: var(--headline);
+	color: var(--nav);
 
 	transition: 0.3s;
 }
 
 .nav-items:hover {
-	color: var(--dark);
-}
-
-.nav-items:hover a {
-	color: var(--light-2);
+	color: var(--nav-hover);
 }
 
 .logo {
@@ -97,7 +87,7 @@ section {
 }
 
 #line {
-	border: 1px solid var(--paragraph);
+	border: 1px solid var(--line);
 }
 
 /* ---------------- HOME ------------------- */
@@ -106,7 +96,7 @@ section {
 	display: flex;
 	justify-content: space-around;
 
-	background-color: var(--light);
+	background-color: var(--body);
 }
 
 #home header {
@@ -169,4 +159,34 @@ section {
 }
 
 /* ===================== FOOOTER ============================================*/
+footer .wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
+footer {
+	background-color: var(--body);
+	padding-block: 6rem;
+	text-align: left;
+}
+
+h2 {
+	margin-bottom: 2rem;
+}
+
+footer p {
+	line-height: 2;
+
+	margin-bottom: 3rem;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+
+	list-style: none;
+	cursor: pointer;
+}
