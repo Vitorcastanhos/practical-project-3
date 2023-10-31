@@ -5,11 +5,12 @@
 }
 
 :root {
-	--hue: 410;
-	--nav: hsl(243, 100%, 69%);
-	--nav-hover: hsl(243, 85%, 60%);
-	--line: hsl(210, 9%, 31%);
-	--body: hsl(0, 0%, 100%);
+	--hue: ;
+	--nav: hsl(243, 81%, 34%);
+	--nav-hover: hsl(213, 97%, 39%);
+	--line: hsl(238, 76%, 18%);
+	--body: hsl(208, 100%, 97%);
+	--sections: hsl(160, 58%, 75%);
 }
 
 html {
@@ -25,6 +26,8 @@ body {
 body {
 	overflow: overlay;
 	text-align: center;
+
+	background-color: var(--body);
 }
 
 section {
@@ -45,6 +48,8 @@ section {
 #navbar {
 	display: flex;
 	justify-content: space-between;
+
+	background-color: var(--sections);
 }
 
 .nav-links {
@@ -95,8 +100,6 @@ section {
 #home {
 	display: flex;
 	justify-content: space-around;
-
-	background-color: var(--body);
 }
 
 #home header {
@@ -128,6 +131,9 @@ section {
 }
 
 /* ===================== Contact============================================*/
+#contact {
+	background-color: var(--sections);
+}
 
 #contact .wrapper {
 	display: flex;
@@ -166,8 +172,7 @@ footer .wrapper {
 }
 
 footer {
-	background-color: var(--body);
-	padding-block: 6rem;
+	padding-block: 5rem;
 	text-align: left;
 }
 
