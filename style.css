@@ -5,12 +5,12 @@
 }
 
 :root {
-	--hue: ;
-	--nav: hsl(243, 81%, 34%);
-	--nav-hover: hsl(213, 97%, 39%);
+	--hue: 250;
+	--nav: hsl(var(--hue), 81%, 34%);
+	--nav-hover: hsl(0, 0%, 100%);
 	--line: hsl(238, 76%, 18%);
-	--body: hsl(208, 100%, 97%);
-	--sections: hsl(160, 58%, 75%);
+	--body: hsl(var(--hue), 100%, 97%);
+	--sections: hsl(var(--hue), 58%, 75%);
 }
 
 html {
@@ -74,6 +74,7 @@ section {
 }
 
 .nav-items:hover {
+	/* opacity: 0.8; */
 	color: var(--nav-hover);
 }
 
