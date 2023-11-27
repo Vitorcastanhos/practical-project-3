@@ -28,3 +28,6 @@ Esse projeto está sob a licença MIT.
 # Acknowledgements
 
 SVG REPO
+<br />
+
+![image](https://github.com/Vitorcastanhos/Login-Screen_Challenge-4/assets/77864032/ad535b71-27cf-493b-9ca2-e361ce9dfce8)
