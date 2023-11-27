@@ -1,6 +1,6 @@
-# Login Screen
+# Static Page 03
 
-Thats a webpage created to practice what Ive been learning.
+That's a static webpage created to practice what I've been learning.
 
 
 # 🚀 Tecnologies
@@ -17,7 +17,7 @@ Thats a webpage created to practice what Ive been learning.
 
 # Customization
 
-You can change the colores using the --hue option.
+You can change the colors using the --hue option.
 
 
 # :memo: License
