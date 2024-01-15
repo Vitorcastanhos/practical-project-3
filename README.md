@@ -21,7 +21,7 @@
 
 ## 💡 Author
 
-vitorcastanhos
+* vitorcastanhos
 
 ## 💻 Usage
 
