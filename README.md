@@ -19,6 +19,10 @@
 
 <br/>
 
+## 💡 Author
+
+vitorcastanhos
+
 ## 💻 Usage
 
 1. Open the project folder in your code editor.
