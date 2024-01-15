@@ -1,33 +1,37 @@
-# Static Page 03
+# 🚀 Practical Project 3 🚀
 
-That's a static webpage created to practice what I've been learning.
+## Preview
+![image](https://github.com/Vitorcastanhos/Login-Screen_Challenge-4/assets/77864032/ad535b71-27cf-493b-9ca2-e361ce9dfce8)
 
+<br/>
 
-# 🚀 Tecnologies
+## 📝 Description
+
+- That's a static webpage created to practice what I've been learning.
+
+<br/>
+
+## 👨🏻‍💻 Tecnologies
 
 - HTML e CSS
 - Git e Github
+- SVG REPO
 
-# 💻 Usage
+<br/>
+
+## 💻 Usage
 
 1. Open the project folder in your code editor.
-
 2. Open the index.html file in your web browser to view the project.
 
+<br/>
 
-# Customization
+## 🎨 Customization
 
-You can change the colors using the --hue option.
+- You can change the colors using the --hue option.
 
+<br/>
 
-# :memo: License
+## :memo: License
 
-Esse projeto está sob a licença MIT.
-
-
-# Acknowledgements
-
-SVG REPO
-<br />
-
-![image](https://github.com/Vitorcastanhos/Login-Screen_Challenge-4/assets/77864032/ad535b71-27cf-493b-9ca2-e361ce9dfce8)
+* ![GitHub License](https://img.shields.io/github/license/jaywcjlove/tools)
