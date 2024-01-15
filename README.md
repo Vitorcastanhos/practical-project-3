@@ -23,6 +23,8 @@
 
 * vitorcastanhos
 
+<br/>
+
 ## 💻 Usage
 
 1. Open the project folder in your code editor.
